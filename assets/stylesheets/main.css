@@ -50,12 +50,12 @@ table {
 /* end of Meyers code */
 /* typografy/customizing fonts */
 body {
-  background: #293f50;
+  background: #000099;
   color: #ffa31a;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, {
-  color: #886464;
+  color: #ffff;
 }
 h1 {
   font-size: 36px;
@@ -67,7 +67,7 @@ h2 {
 }
 h3 {
   font-size: 21px;
-  color: gray
+  color: #000099;
 }
 h6 {
   font-size: 24px;
@@ -100,7 +100,7 @@ a {
          box-sizing: border-box;
 }
 .container {
-  margin: 0 auto;
+  margin: auto;
   padding-left: 30px;
   padding-right: 30px;
   width: 960px;
@@ -134,7 +134,7 @@ h1, h3, h4, h5, p {
 }
 /* padding for button section */
 .hero {
-  padding: 22px 80px 66px 80px;
+  padding: 2px;
 }
 /* primary header float */
 .logo {
@@ -143,7 +143,7 @@ h1, h3, h4, h5, p {
   float: left;
 }/* footer */
 .primary-footer small {
-  float: left;
+  float: center;
 }
 .primary-footer {
   padding-bottom: 44px;
@@ -180,7 +180,7 @@ h1, h3, h4, h5, p {
   font-weight: 400;
 }
 .primary-footer {
-  color: #ffa31a;
+  color: #ffff;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -207,7 +207,7 @@ p a {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .tagline {
   margin: 66px 0 22px 0;
@@ -225,11 +225,11 @@ p a {
 }
 .primary-header a,
 .primary-footer a {
-  color: #ffa31a;
+  color: #fff;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #648880;
+  color:#ffa31a;
 }
 .btn {
   border-radius: 5px;
@@ -238,12 +238,12 @@ p a {
   display: inline-block;
   font-weight: 400;
   letter-spacing: .5px;
-  margin: 0;
   text-transform: uppercase;
+  padding: 20px;
 }
 .btn-alt {
   border: 1px solid #ffa31a;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 .btn-alt:hover {
   background:#ffa31a;
@@ -251,6 +251,7 @@ p a {
 }
 /* Rows */
 .row {
+  text-decoration: #000099;
   background: #fff;
   min-width: 960px;
   padding: 66px 0 44px 0;
@@ -268,4 +269,112 @@ p a {
   display: block;
   padding: 4px;
 }
-
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row,
+.row-alt{
+  min-width: 960px;
+}
+/* about workers */
+.teammember-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.teammember {
+  margin-bottom: 44px;
+}
+.teammember-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+.teammember-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+/* Contact and map */
+.office-belgrade {
+  margin-bottom: 66px;
+}
+.office-lazarevac {
+  margin-bottom: 22px;
+}
+.venue-map {
+  height: 264px;
+}
+.why-reach {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
+/* services page */ 
+.remodeling-info {
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.remodeling-info img {
+  width: 100%;
+  height: 200px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+.logo img {
+  width: 200px;
+}
+.headlogo img {
+  width: 100%;
+  height: 200px;
+}
