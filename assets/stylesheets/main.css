@@ -55,7 +55,7 @@ body {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, {
-  color: #ffff;
+  color: #ffa31a;
 }
 h1 {
   font-size: 36px;
@@ -180,7 +180,7 @@ h1, h3, h4, h5, p {
   font-weight: 400;
 }
 .primary-footer {
-  color: #ffff;
+  color:#ffa31a;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
@@ -225,7 +225,7 @@ p a {
 }
 .primary-header a,
 .primary-footer a {
-  color: #fff;
+  color: #ffa31a;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
@@ -305,9 +305,6 @@ p a {
 .office-belgrade {
   margin-bottom: 66px;
 }
-.office-lazarevac {
-  margin-bottom: 22px;
-}
 .venue-map {
   height: 264px;
 }
@@ -350,13 +347,14 @@ textarea {
   height: 78px;
 }
 .btn-default {
-  border: 0;
-  background: #648880;
+  border: 1px solid #ffa31a;
+  background:#fff;
   padding: 11px 30px;
   font-size: 14px;
 }
 .btn-default:hover {
-  background: #77a198;
+  background: #ffa31a;
+  color: #648880;
 }
 /* services page */ 
 .remodeling-info {
